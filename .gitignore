@@ -1,0 +1,12 @@
+# Source PDFs are too large for GitHub (>100 MB); images are extracted into assets/img
+*.pdf
+
+# Earlier single-project drafts, superseded by the unified site
+sem1_drop_of_success_dynamic_website/
+sem2_reef_ray_dynamic_website/
+sem3_streamline_dynamic_website/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/
