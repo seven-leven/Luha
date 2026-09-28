@@ -1,0 +1,47 @@
+{
+  "name": { "first": "Fathimath", "preferred": "Luha", "last": "Nihaz" },
+  "role": "Architectural Design Student",
+  "portrait": "about/portrait.jpg",
+  "bio": "I am Luha Nihaz, an Architectural Design student at the Maldives National University with an interest in design, research, and creating meaningful spatial experiences.",
+  "tagline": "Architectural Design student at the Maldives National University, interested in design, research and creating meaningful spatial experiences.",
+  "profile": "Architectural Design student at the Maldives National University with an interest in design, research, and creating meaningful spatial experiences. Studio work so far ranges from a conceptual model study to a coastal dive facility and a five-storey mixed-use building in Malé, supported by internship experience in architectural practice.",
+
+  "contact": {
+    "email": "fathimathluhanihaz@gmail.com",
+    "phone": { "display": "+960 760 6021", "tel": "+9607606021" },
+    "website": { "display": "seven-leven.github.io/Luha", "url": "https://seven-leven.github.io/Luha/" }
+  },
+
+  "education": [
+    { "years": "2025 – Present", "title": "Bachelor of Arts in Architectural Design", "short": "BA in Architectural Design", "place": "Maldives National University" },
+    { "years": "2023 – 2024", "title": "Diploma in Architecture", "place": "Maldives Polytechnic" },
+    { "years": "2022 – 2023", "title": "Advanced Certificate in Architecture", "place": "Maldives Polytechnic" },
+    { "years": "2021", "title": "O’ Level", "place": "Laamu Atoll Education Center" }
+  ],
+
+  "experience": [
+    { "years": "2026 – Present", "role": "Architectural Intern", "org": "Architects Association of Maldives (AAM)", "org_short": "Architects Association of Maldives" },
+    { "years": "2024 – 2026", "role": "Constable", "org": "Maldives Police Service" },
+    { "years": "2024", "role": "Architectural Design Intern", "org": "Village Construction Pvt Ltd" },
+    { "years": "2022 – 2024", "role": "Administrative Officer", "org": "Ministry of Environment" }
+  ],
+
+  "software": [
+    { "name": "AutoCAD", "abbr": "A" },
+    { "name": "SketchUp", "abbr": "Su" },
+    { "name": "Rhino", "abbr": "Rh" },
+    { "name": "Enscape", "abbr": "En" },
+    { "name": "Photoshop", "abbr": "Ps" },
+    { "name": "Illustrator", "abbr": "Ai" },
+    { "name": "InDesign", "abbr": "Id" }
+  ],
+
+  "design_skills": [
+    "Concept development &amp; form studies",
+    "Spatial planning &amp; bubble diagrams",
+    "Architectural drafting",
+    "3D modelling &amp; rendering",
+    "Physical model making",
+    "Portfolio &amp; layout design"
+  ]
+}

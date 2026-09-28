@@ -1,0 +1,66 @@
+{
+  "sem": 1,
+  "status": "complete",
+  "slug": "drop-of-success",
+  "title": "Drop of Success",
+  "title_lines": ["Drop of", "Success"],
+  "location": "Conceptual study · Physical model",
+  "page": "03",
+  "description": "Semester 01 — Drop of Success: personal growth explored through Platonic solids.",
+  "lead": "Drop of Success explores personal growth through Platonic solids. Three forms represent myself, the people who support my journey, and the strength I aspire to achieve.",
+  "summary": "Personal growth explored through Platonic solids. Three forms stand for myself, the people who support my journey, and the strength I aspire to achieve.",
+  "cv_line": "Conceptual study and physical model using Platonic solids",
+
+  "hero": { "src": "sem1/model.jpg", "alt": "Drop of Success physical model", "contain": true },
+  "contents_img": "sem1/model.jpg",
+  "feature": { "src": "sem1/model.jpg", "alt": "Drop of Success physical model", "contain": true },
+
+  "sections": [
+    {
+      "id": "concept", "tint": true,
+      "head": {
+        "title": "Concept", "small": "Development",
+        "sub": "From Platonic solids to a personal journey",
+        "intro": "The project began by exploring Platonic solids and their symbolic relationship to natural elements. Three forms were selected and given personal meanings to develop the concept “A Journey”."
+      },
+      "blocks": [
+        { "type": "figure", "step": "01", "label": "Exploring Platonic solids",
+          "src": "sem1/platonic-solids.jpg", "alt": "Tetrahedron, cube, octahedron, dodecahedron and icosahedron", "frame": true },
+        { "type": "cards", "step": "02", "label": "Selected forms &amp; meaning",
+          "items": [
+            { "kicker": "Icosahedron", "from": "Water", "to": "Myself", "text": "Represents my adaptability and growth throughout the journey." },
+            { "kicker": "Cube", "from": "Earth", "to": "Support", "text": "Represents the people who support and guide me." },
+            { "kicker": "Tetrahedron", "from": "Fire", "to": "Strength", "text": "Represents the strength and confidence I aspire to achieve." }
+          ] },
+        { "type": "figure", "step": "03", "label": "Concept — a journey",
+          "src": "sem1/journey.jpg", "alt": "Myself (adaptability) to support (guidance) to strength (growth)", "frame": true }
+      ]
+    },
+    {
+      "id": "process",
+      "head": {
+        "title": "Design", "small": "Process",
+        "sub": "Translating the narrative into form",
+        "intro": "“A Journey” represents my personal growth. The icosahedron represents myself and adaptability, the cubes represent the people who support me, and the tetrahedron represents the strength I aspire to achieve. Together, the forms express my journey towards growth and confidence."
+      },
+      "blocks": [
+        { "type": "steps", "items": [
+          { "title": "Starting point", "src": "sem1/step-1.jpg", "alt": "Icosahedron sketch", "text": "The journey begins with the icosahedron, representing myself." },
+          { "title": "Support", "src": "sem1/step-2.jpg", "alt": "Cubes sketch", "text": "Cubes are introduced to represent support throughout the journey." },
+          { "title": "Growth", "src": "sem1/step-3.jpg", "alt": "Upward form sketch", "text": "The form develops upward, expressing growth towards the goal." },
+          { "title": "Final composition", "src": "sem1/step-4.jpg", "alt": "Final composition sketch", "text": "The tetrahedron completes the journey, representing strength." }
+        ] }
+      ]
+    },
+    {
+      "id": "final", "tint": true,
+      "blocks": [
+        { "type": "split", "layout": "wide-left",
+          "figure": { "src": "sem1/model-annotated.jpg", "alt": "Annotated physical model: icosahedron, cubes and tetrahedron" },
+          "heading": { "title": "Final", "small": "Design", "sub": "Physical model" },
+          "paragraphs": ["The central icosahedron is the adaptable self. Cubes rise around it along the curved frame as the people who support and guide, and the tetrahedron crowns the composition as the strength aspired to."],
+          "statement": "The final composition expresses a journey from adaptability and support towards strength and growth." }
+      ]
+    }
+  ]
+}

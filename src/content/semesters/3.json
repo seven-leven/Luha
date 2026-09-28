@@ -1,0 +1,88 @@
+{
+  "sem": 3,
+  "status": "complete",
+  "slug": "streamline-villa",
+  "title": "Streamline Villa",
+  "title_lines": ["Streamline", "Villa"],
+  "location": "Malé, Maldives",
+  "page": "09",
+  "description": "Semester 03 — Streamline Villa, Malé: a five-storey mixed-use building shaped by fluidity and curved balconies.",
+  "lead": "Streamline Villa is a five-storey mixed-use building designed for an urban site in Malé. The project explores fluidity and movement through curved balcony forms, creating a softer architectural expression within the dense urban context.",
+  "summary": "A five-storey mixed-use building exploring fluidity and movement through curved balcony forms, giving a softer architectural expression within a dense urban context.",
+  "cv_line": "Malé · Five-storey mixed-use building with curved balcony façade",
+
+  "hero": { "src": "sem3/render-1.jpg", "alt": "Streamline Villa facade with curved balconies" },
+  "contents_img": "sem3/render-1.jpg",
+  "feature": { "src": "sem3/render-2.jpg", "alt": "Streamline Villa render", "position": "center 30%" },
+
+  "sections": [
+    {
+      "id": "concept", "tint": true,
+      "head": {
+        "title": "Concept", "small": "Development",
+        "sub": "From fluidity to architectural form",
+        "intro": "The concept explores fluidity and movement through flowing architectural forms. Curved elements shape the façade and building form, while ocean-inspired colours create a sense of calm and flow."
+      },
+      "blocks": [
+        { "type": "figure", "step": "01", "label": "Site",
+          "src": "sem3/site.jpg", "alt": "Site location: Maldives, Malé and the site", "frame": true },
+        { "type": "statement", "step": "02", "label": "Concept — fluidity",
+          "text": "Curved lines soften the building’s edge, carrying a sense of continuous movement into the tight grid of Malé." },
+        { "type": "grid", "cols": 3, "frame": "outer", "step": "03", "label": "Facade development",
+          "items": [
+            { "src": "sem3/flow-study.jpg", "alt": "Flow study", "caption": "Flow study — curved lines explore movement and fluidity" },
+            { "src": "sem3/facade-pattern.jpg", "alt": "Facade pattern", "caption": "Façade pattern — flowing lines shape the balconies" },
+            { "src": "sem3/facade-applied.jpg", "alt": "Final facade application", "caption": "Final application — curved balconies create visual flow" }
+          ] }
+      ]
+    },
+    {
+      "id": "process",
+      "head": {
+        "title": "Design", "small": "Process",
+        "sub": "Movement becomes space",
+        "intro": "Retail and arrival on the ground floor, entertainment on the first, residences on the typical floors and a pool terrace on the roof, each level organised through the same flowing language."
+      },
+      "blocks": [
+        { "type": "figure", "step": "01", "label": "Bubble diagrams",
+          "src": "sem3/bubble-diagrams.jpg", "alt": "Bubble diagrams for ground, first, typical and terrace floors", "frame": true },
+        { "type": "figure", "step": "02", "label": "Form development",
+          "src": "sem3/form-development.jpg", "alt": "Basic mass, curve introduced, form opened, spatial development", "frame": true }
+      ]
+    },
+    {
+      "id": "plans", "tint": true,
+      "head": {
+        "title": "Floor", "small": "Plans",
+        "sub": "Floor plan development",
+        "intro": "Four plan types, each paired with a sectional axonometric. The curve moves in from the façade to shape lobbies, rooms and the terrace pool."
+      },
+      "blocks": [
+        { "type": "grid", "cols": 2, "frame": "inner",
+          "items": [
+            { "src": "sem3/plan-ground.jpg", "alt": "Ground floor plan", "caption": "Ground floor · Retail + arrival" },
+            { "src": "sem3/plan-first.jpg", "alt": "First floor plan", "caption": "First floor · Indoor gaming + entertainment" },
+            { "src": "sem3/plan-typical.jpg", "alt": "Typical floor plan", "caption": "Typical floors · Residential" },
+            { "src": "sem3/plan-terrace.jpg", "alt": "Terrace floor plan", "caption": "Terrace floor · Pool + social space" }
+          ] }
+      ]
+    },
+    {
+      "id": "final",
+      "head": {
+        "title": "Final", "small": "Design",
+        "sub": "Final views",
+        "intro": "Ocean-blue balconies wrap the building in continuous, overlapping curves, giving the street a softer edge and every home an outdoor space."
+      },
+      "blocks": [
+        { "type": "grid", "cols": 2, "clip": true,
+          "items": [
+            { "src": "sem3/render-1.jpg", "alt": "Facade view" },
+            { "src": "sem3/render-2.jpg", "alt": "Corner view" },
+            { "src": "sem3/render-3.jpg", "alt": "Street entrance" },
+            { "src": "sem3/render-4.jpg", "alt": "Terrace with pool" }
+          ] }
+      ]
+    }
+  ]
+}

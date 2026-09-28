@@ -148,6 +148,13 @@ figcaption { margin-top: 14px; font-size: 11px; letter-spacing: .2em; text-trans
 }
 .statement::before { content: ""; display: block; width: 56px; height: 3px; background: var(--accent); margin-bottom: 26px; }
 
+.statement.narrow { max-width: 860px; }
+.notes { margin-top: 22px; }
+.split-text .title-stack + p { margin-top: 28px; }
+.split-text .kicker + .statement { margin-top: 18px; }
+.split-text p + .statement { margin-top: 36px; }
+.soon-btn { margin-top: 40px; }
+
 /* meaning cards (form → element → meaning) */
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
 .card { background: var(--white); padding: clamp(24px, 3vw, 40px); }

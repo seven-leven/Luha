@@ -1,0 +1,74 @@
+{
+  "sem": 2,
+  "status": "complete",
+  "slug": "reef-ray-dive-center",
+  "title": "Reef Ray Dive Center",
+  "title_lines": ["Reef Ray", "Dive Center"],
+  "location": "Vilimalé, Maldives",
+  "page": "06",
+  "description": "Semester 02 — Reef Ray Dive Center, Vilimalé: a dive facility shaped by the form of a manta ray.",
+  "lead": "Reef Ray Dive Center is a small diving facility designed to support the functional needs of divers while creating a strong connection to its coastal setting. The design takes inspiration from the form of a manta ray, influencing the overall building form and roof.",
+  "summary": "A small diving facility shaped by the broad, flowing form of a manta ray, supporting the functional sequence of divers while connecting to its coastal setting.",
+  "cv_line": "Vilimalé · Dive facility shaped by the form of a manta ray",
+
+  "hero": { "src": "sem2/render-main.jpg", "alt": "Reef Ray Dive Center aerial render" },
+  "contents_img": "sem2/render-main.jpg",
+  "feature": { "src": "sem2/render-main.jpg", "alt": "Reef Ray Dive Center render" },
+
+  "sections": [
+    {
+      "id": "concept", "tint": true,
+      "head": {
+        "title": "Concept", "small": "Development",
+        "sub": "From marine form to architecture",
+        "intro": "The concept explores the form of the manta ray as a starting point for the architecture. Its broad shape and curved profile influenced the development of the building, particularly the roof, creating a form that connects the dive center to its marine setting."
+      },
+      "blocks": [
+        { "type": "split", "layout": "wide-right", "step": "01", "label": "Inspiration",
+          "figure": { "src": "sem2/manta.jpg", "alt": "Manta ray seen from above" },
+          "kicker": "Manta ray",
+          "statement": "A broad, flowing form and curved edges, reflecting the graceful movement found in the marine environment." },
+        { "type": "figure", "step": "02", "label": "Form development",
+          "src": "sem2/form-development.jpg", "alt": "Basic mass, mass division and form development sketches", "frame": true,
+          "notes": [
+            { "title": "Basic mass", "text": "Initial building volume." },
+            { "title": "Mass division", "text": "Mass divided into three forms." },
+            { "title": "Form development", "text": "Forms shaped by the manta ray concept." }
+          ] }
+      ]
+    },
+    {
+      "id": "planning",
+      "head": {
+        "title": "Design", "small": "Process",
+        "sub": "Planning around the diver’s sequence",
+        "intro": "Spatial planning developed around the functional sequence of divers, while the manta-inspired form shaped the overall building geometry."
+      },
+      "blocks": [
+        { "type": "split", "layout": "wide-left", "step": "01", "label": "Bubble diagram", "step_inside": true,
+          "figure": { "src": "sem2/bubble-diagram.jpg", "alt": "Bubble diagram of dive center spaces", "frame": true },
+          "paragraphs": ["Arrival leads to reception, which connects the briefing room, classroom and the central equipment storage. Outdoor showers, toilets and the compressor area form the operational edge."],
+          "tags": ["Reception", "Briefing room", "Classroom", "Office", "Equipment storage", "General storage", "Compressor", "Outdoor showers"] },
+        { "type": "split", "layout": "wide-left", "step": "02", "label": "Floor plan", "step_inside": true,
+          "figure": { "src": "sem2/floor-plan.jpg", "alt": "Dive center floor plan", "frame": true },
+          "paragraphs": ["Reception, briefing and classroom set up the front of the facility. Equipment and general storage sit at the centre, while the compressor, toilets and outdoor showers wrap the back beneath the sweeping roof."] }
+      ]
+    },
+    {
+      "id": "final", "tint": true,
+      "head": {
+        "title": "Final", "small": "Design",
+        "sub": "Final views",
+        "intro": "The sweeping, manta-inspired roof becomes the dominant gesture, while the smaller supporting volumes keep the dive center compact and practical within its green coastal setting."
+      },
+      "blocks": [
+        { "type": "gallery",
+          "main": { "src": "sem2/render-main.jpg", "alt": "Aerial view" },
+          "side": [
+            { "src": "sem2/render-left.jpg", "alt": "Street-level view" },
+            { "src": "sem2/render-right.jpg", "alt": "Side view" }
+          ] }
+      ]
+    }
+  ]
+}
