@@ -1,12 +1,15 @@
-# Source PDFs are too large for GitHub (>100 MB); images are extracted into assets/img
+# Source portfolio PDFs (too large for GitHub, >100 MB). Keep them locally in source/;
+# tools/extract_images.py crops the site images out of them into assets/img/.
+source/
 *.pdf
+!assets/cv/*.pdf
 
-# Earlier single-project drafts, superseded by the unified site
-sem1_drop_of_success_dynamic_website/
-sem2_reef_ray_dynamic_website/
-sem3_streamline_dynamic_website/
+# Earlier single-project draft sites, superseded by this unified site
+_archive/
+
+# Local tooling
+.claude/
 
 .DS_Store
 Thumbs.db
 desktop.ini
-.claude/

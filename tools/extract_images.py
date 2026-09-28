@@ -3,7 +3,7 @@ import fitz, os, sys
 from PIL import Image, ImageDraw
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.path.join(ROOT, "SEM 123 low res.pdf")
+SRC = os.path.join(ROOT, "source", "SEM 123 low res.pdf")
 OUT = os.path.join(ROOT, "assets", "img")
 DPI = 260
 
